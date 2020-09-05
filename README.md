@@ -1,2 +1,8 @@
 # Discrete_Mathematics_Finals
  This was our final project for Discrete Math SP2020. I wrote a python program that extracted a number into an equation consisting of only ones and the addition, multiplication and parenthesis operators.
+
+ Premise
+Two basic arithmetic operations underlying algebra are the operations of addition and multiplication. This project examines how addition and multiplication interact to generate positive integers from a minimal amount of initial data. For a positive integer n, we define the identity generating complexity of n to be the smallest number of ones required to write the number n using only addition, multiplication, and grouping symbols (i.e., parentheses). We will let Cn denote the identity generating complexity of n. For example, the integer 10 can be generated using 8 ones, as
+(1 + 1) × (1 + 1 + 1 + 1) + 1 + 1 = 10
+This example is enough to tell us that C10 ≤ 8. It may be possible to write the integer 10 using fewer than 8 ones, which is why we are unable to jump to the claim that C10 = 8. Once you think you might know that C10 = k, you will need some kind of argument to show that there is no way to combine fewer than k ones using only addition, multiplication, and grouping symbols to obtain the integer 10.
+Your task is to learn as much about the sequence of numbers Cn as you can before the end of the semester. What this means is that you are going to work to understand the sequence Cn on your own and with your assigned project group. The goal for this project is for you to come to understand this sequence and to approach it in your own unique way. At the end of the term, you and your project group will present your work and your findings.
